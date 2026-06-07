@@ -1,0 +1,36 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f1ea;
+    color: #4a3b32;
+}
+
+h1 {
+    color: #6f4e37;
+}
+
+table {
+    background-color: #ffffff;
+    /* border kaldırıldı, Stage 4'te eklenecek */
+}
+
+th {
+    background-color: #6f4e37;
+    color: #ffffff;
+}
+
+tr {
+    background-color: #fdfbf7;
+}
+
+a {
+    color: #8b5a2b;
+    text-decoration: none;
+}
+
+.geri-btn {
+    display: inline-block;
+    background-color: #6f4e37;
+    color: white;
+    font-weight: bold;
+    /* margin, padding ve border kesinlikle yok */
+}

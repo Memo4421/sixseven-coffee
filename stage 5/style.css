@@ -1,0 +1,71 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f1ea;
+    color: #4a3b32;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header {
+    background-color: #6f4e37;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.left-box, .right-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border-bottom: 1px solid #e0d9d2;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #fcfaf7;
+    color: #6f4e37;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    color: #8b5a2b;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.geri-btn {
+    display: inline-block;
+    background-color: #6f4e37;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.geri-btn:hover { 
+    background-color: #4a3b32;
+    color: white; /* Hover durumunda yazı renginin beyaz kalması garantilendi */
+}

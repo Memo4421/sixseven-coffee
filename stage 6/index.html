@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en"> <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SixSeven Coffee - Live Order</title> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <h1><i class="fa-solid fa-mug-hot"></i> SixSeven Coffee</h1>
+    </header>
+
+    <div class="grid-container">
+        
+        <div class="left-box">
+            <h2>Quick Order Menu</h2> <p>Select your desired coffee and size to update your cart.</p> <img src="kahve.jpg" alt="Filter Coffee" width="100%">
+        </div>
+
+        <div class="right-box">
+            <h2>Order Screen</h2> <table>
+                <thead>
+                    <tr>
+                        <th>Coffee Type</th> <th>Size</th> <th>Price</th> <th>Action</th> </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Filter Coffee</td><td>Small (S)</td><td>50 TL</td><td><button class="ekle-btn" data-fiyat="50">Add to Cart</button></td></tr>
+                    <tr><td>Filter Coffee</td><td>Medium (M)</td><td>60 TL</td><td><button class="ekle-btn" data-fiyat="60">Add to Cart</button></td></tr>
+                    <tr><td>Filter Coffee</td><td>Large (L)</td><td>70 TL</td><td><button class="ekle-btn" data-fiyat="70">Add to Cart</button></td></tr>
+                    
+                    <tr><td>Cafe Latte</td><td>Small (S)</td><td>65 TL</td><td><button class="ekle-btn" data-fiyat="65">Add to Cart</button></td></tr>
+                    <tr><td>Cafe Latte</td><td>Medium (M)</td><td>75 TL</td><td><button class="ekle-btn" data-fiyat="75">Add to Cart</button></td></tr>
+                    <tr><td>Cafe Latte</td><td>Large (L)</td><td>85 TL</td><td><button class="ekle-btn" data-fiyat="85">Add to Cart</button></td></tr>
+                    
+                    <tr><td>Americano</td><td>Small (S)</td><td>55 TL</td><td><button class="ekle-btn" data-fiyat="55">Add to Cart</button></td></tr>
+                    <tr><td>Americano</td><td>Medium (M)</td><td>65 TL</td><td><button class="ekle-btn" data-fiyat="65">Add to Cart</button></td></tr>
+                    <tr><td>Americano</td><td>Large (L)</td><td>75 TL</td><td><button class="ekle-btn" data-fiyat="75">Add to Cart</button></td></tr>
+                </tbody>
+            </table>
+
+            <div class="sepet-kutusu">
+                <h3><i class="fa-solid fa-basket-shopping"></i> Your Order Summary</h3> <p>Total Amount: <span id="toplam-tutar">0</span> TL</p> <button id="sifirla-btn">Clear Cart</button> </div>
+        </div>
+
+    </div>
+
+    <footer class="site-footer">
+        <p><a href="../index.html" class="geri-btn">← Return to Landing Page</a></p> </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
